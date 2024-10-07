@@ -9,7 +9,7 @@
 ```
 /script PetPassiveMode();
 /script PetFollow();
-/script if (UnitAffectingCombat("player")) then CastSpellByName("Feign Death") else if not (UnitAffectingCombat("player")) then CastSpellByName("Freezing Trap"); end
+/script if (UnitAffectingCombat("player")) then CastSpellByName("Feign Death") elseif not (UnitAffectingCombat("player")) then CastSpellByName("Freezing Trap"); end
 ```
  
 
